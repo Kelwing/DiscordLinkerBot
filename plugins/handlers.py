@@ -19,7 +19,6 @@
 import discord
 import datetime as dt
 import logging
-from discord.ext import commands
 from tinydb import TinyDB, Query
 
 db = TinyDB('serverlinker.json')
