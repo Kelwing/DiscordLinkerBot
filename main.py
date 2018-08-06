@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
 @bot.event
 async def on_ready():
-    game = discord.Game(f"Type $help | auttaja.io "
+    game = discord.Game(f"Type $help "
                         f"| Serving {len(bot.guilds)} guilds on "
                         f"{bot.shard_count} shards")
     await bot.change_presence(activity=game)
