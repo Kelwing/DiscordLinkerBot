@@ -1,0 +1,3 @@
+tinydb
+-e git+https://github.com/Kelwing/discord.py.git@rewrite#egg=discord.py
+python-fity3
