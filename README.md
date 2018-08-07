@@ -2,6 +2,8 @@
 A simple bot that links channels together in a bi-directional fashion.
 
 [![Docker Repository on Quay](https://quay.io/repository/kelwing/discordserverlinker/status "Docker Repository on Quay")](https://quay.io/repository/kelwing/discordserverlinker)
+![GPL-3.0](https://img.shields.io/github/license/Kelwing/DiscordLinkerBot.svg)
+[![Discord Server](https://img.shields.io/discord/194533269180514305.svg)](https://discord.gg/xmvACvn)
 
 ## Requirements
 * Python 3.5 or 3.6
