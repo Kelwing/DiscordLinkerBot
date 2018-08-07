@@ -16,11 +16,16 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
+import os
 from discord.ext import commands
 from tinydb import TinyDB, Query
 from snowflake import f3
 
-db = TinyDB('serverlinker.json')
+
+if not os.path.exists('data'):
+    os.makedirs('data')
+
+db = TinyDB('data/serverlinker.json')
 
 
 class Linkage:

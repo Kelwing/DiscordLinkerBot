@@ -17,7 +17,8 @@ A simple bot that links channels together in a bi-directional fashion.
 7. `python main.py`
 
 ### Docker
-Simply run `docker run -e "TOKEN=yourtokenhere" quay.io/kelwing/discordserverlinker`
+1. `sudo mkdir $HOME/link-data`
+2. `docker run -e "TOKEN=yourtokenhere" -v $HOME/link-data:/opt/bot/data quay.io/kelwing/discordserverlinker`
 
 ## Support
 If you need support or want to help with the project, contact Kelwing#0001 on Discord. 

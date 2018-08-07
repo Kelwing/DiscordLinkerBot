@@ -19,9 +19,14 @@
 import discord
 import datetime as dt
 import logging
+import os
 from tinydb import TinyDB, Query
 
-db = TinyDB('serverlinker.json')
+
+if not os.path.exists('data'):
+    os.makedirs('data')
+
+db = TinyDB('data/serverlinker.json')
 
 logger = logging.getLogger('serverlinker')
 
