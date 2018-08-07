@@ -5,6 +5,8 @@ A simple bot that links channels together in a bi-directional fashion.
 ![GPL-3.0](https://img.shields.io/github/license/Kelwing/DiscordLinkerBot.svg)
 [![Discord Server](https://img.shields.io/discord/194533269180514305.svg)](https://discord.gg/xmvACvn)
 
+[Add to your server](https://discordapp.com/oauth2/authorize?client_id=476122189524107285&scope=bot&permissions=19456)
+
 ## Requirements
 * Python 3.5 or 3.6
 * Git
